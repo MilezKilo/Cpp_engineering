@@ -18,7 +18,7 @@ namespace UnitTest1 {
 
 		TEST_METHOD(TestMethod2) {
 			auto roots = quadraticEqution(1, 6, 9);
-			\\
+			auto rootOne = get<0>(roots);
 			Assert::AreEqual(rootOne, -3.0f);
 		}
 
